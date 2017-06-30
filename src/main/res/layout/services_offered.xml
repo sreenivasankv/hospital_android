@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="This app is used to create a system to manage all the operations associated with a Hospital. THe different modules covered in this app are:"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:text="The different modules covered in this app are: Doctors, Patients, Staff members, Desktop_admin"
+    android:textSize="30dp"
+    android:textStyle="bold" />
+
+</LinearLayout>

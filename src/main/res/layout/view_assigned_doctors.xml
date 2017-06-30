@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:text="List of Assigned Doctors"
+        android:textSize="22dp" />
+
+    <ListView
+        android:id="@+id/lv_assigned_doctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#2f2f2f"
+        android:dividerHeight="0.5dp">
+    </ListView>
+</LinearLayout>

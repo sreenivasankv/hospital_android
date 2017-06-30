@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Approved"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/lvy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#2f2f2f"
+        android:dividerHeight="0.5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center">
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Not Approved"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/lvn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2f2f2f"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:dividerHeight="0.5dp"
+        android:textAlignment="center">
+    </ListView>
+</LinearLayout>
